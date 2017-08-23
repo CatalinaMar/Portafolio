@@ -30,15 +30,24 @@ p{
 
 #bienvenida {
 	margin-top: 80px;
-	width: 50%;
+	width: 100%;
+	padding-bottom: 50px;
 }
 
+#bienvenidita{
+	width: 50%
+}
 a{
 	color: #070114;
 	font-family:'Libre Baskerville', serif;
 	text-decoration: none;
 	font-size: 16px;
 
+}
+
+li {
+	text-decoration: none;
+	list-style: none;
 }
 
 header{
@@ -66,18 +75,55 @@ header{
 	background-color: #2A19A5;
 	display: flex;
 	flex-direction: row;
+	padding: 40px;
+	border-style: solid;
+	border-right: 0px;
+	border-left: 0px;
+	border-top: 0px;
 }
 
 #menu-basico{
 	background-color: #98A519;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	width: 100%;
 }
 
-#proyectos-total{
-	background-color: #3FA519;
+#tambienuno{
+	display: flex;
+	flex-direction: row;
+	margin-right: 20px;
 }
+
+#tambienuno img{
+	height: 34px;
+	margin-left: 20px;
+}
+#menu-atajo li{
+	margin-bottom: 10px;
+}
+
+#p-total{
+	background-color: #3FA519;
+	height: 560px;
+    width: 100%;
+    border-style: solid;
+	border-right: 0px;
+	border-left: 0px;
+	border-top: 0px;
+}
+
+#proyectos-recientes{
+   margin-top: 90px;
+}
+
 
 #curriculum{
 	background-color: #A54419;
+	   margin-top: 90px;
+	   display: flex;
+	   flex-direction: row;
 }
 
 #logo{
@@ -86,8 +132,8 @@ header{
 }
 
 #banner{
-	height: 800px;
-    background: url("image/tres.png") repeat-x left top;
+	height: 700px;
+    background: url("../image/tres.png") repeat-x left top;
   -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
@@ -95,15 +141,38 @@ header{
       width: 50%;
 }
 
-#insta{
-	height: 34px;
-}
-
-#ead{
-	height: 34px;
+.iconos{
+	height: 2px;
+	margin-left: 10px;
 }
 
 #miphoto{
-	height: 519px;
+   width: 100%;
+   	height: 600px;
+       background: url("../image/cata.png") repeat-x left top;
+  -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+
 }
 
+#bannercurriculum{
+		width: 50%;
+}
+
+#bannercurriculum img{
+	height: 34px;
+
+
+}
+
+#concurri{
+	width: 50%;
+}
+
+#currinfo {
+	margin-top: 50px;
+	line-height: 2.1em;
+	margin-right: 20px;
+}
