@@ -9,7 +9,7 @@ body{
 h1{
 	color: #070114;
 	font-family:'Libre Baskerville', serif;
-	font-size: 38pt;
+	font-size: 50px;
 	margin-bottom: 0px;
 	margin-top: 0px;	
 }
@@ -17,7 +17,7 @@ h1{
 h2{
 	color: #070114;
 	font-family:'Libre Baskerville', serif;
-    font-size: 25pt;
+    font-size: 33px;
 	margin-bottom: 0px;
 	margin-top: 0px;
 }
@@ -25,13 +25,15 @@ h2{
 p{
 	color: #070114;
 	font-family:'Nunito', sans-serif;
-	font-size: 14pt;
+	font-size: 18px;
+     line-height: 1.5em;
 }
 
 #bienvenida {
 	margin-top: 80px;
 	width: 100%;
 	padding-bottom: 50px;
+    margin-right: 20px;
 }
 
 #bienvenidita{
@@ -56,6 +58,7 @@ header{
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
+	align-items: center;
 }
 #menu-proyectos{
 	background-color: #00E5E5;
@@ -75,7 +78,7 @@ header{
 	background-color: #2A19A5;
 	display: flex;
 	flex-direction: row;
-	padding: 40px;
+    padding-bottom: 40px;
 	border-style: solid;
 	border-right: 0px;
 	border-left: 0px;
@@ -121,7 +124,6 @@ header{
 
 #curriculum{
 	background-color: #A54419;
-	   margin-top: 90px;
 	   display: flex;
 	   flex-direction: row;
 }
@@ -132,8 +134,8 @@ header{
 }
 
 #banner{
-	height: 700px;
-    background: url("../image/tres.png") repeat-x left top;
+	height: 750px;
+    background: url("../image/tres.png") repeat-x center;
   -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
@@ -149,7 +151,7 @@ header{
 #miphoto{
    width: 100%;
    	height: 600px;
-       background: url("../image/cata.png") repeat-x left top;
+       background: url("../image/cata.png") repeat-x center;
   -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
@@ -167,12 +169,24 @@ header{
 
 }
 
+#contactanos-dos {
+	display: none;
+}
+
+#contactanos-dos img{
+	height: 34px;	
+} 
+
 #concurri{
 	width: 50%;
 }
 
 #currinfo {
-	margin-top: 50px;
 	line-height: 2.1em;
 	margin-right: 20px;
+}
+
+#currititulo {
+	margin-top: 90px;
+    margin-bottom: 70px;
 }
