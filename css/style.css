@@ -11,7 +11,8 @@ h1{
 	font-family:'Libre Baskerville', serif;
 	font-size: 50px;
 	margin-bottom: 0px;
-	margin-top: 0px;	
+	margin-top: 0px;
+	    font-weight: 400;	
 }
 
 h2{
@@ -20,13 +21,22 @@ h2{
     font-size: 33px;
 	margin-bottom: 0px;
 	margin-top: 0px;
+	    font-weight: 400;
 }
 
+h4{
+	font-family:'Libre Baskerville', serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
 p{
 	color: #070114;
 	font-family:'Nunito', sans-serif;
 	font-size: 18px;
      line-height: 1.5em;
+         margin-top: 0px;
 }
 
 #bienvenida {
@@ -184,10 +194,36 @@ header{
 }
 
 .texto-banner{
-    background-color: red;
+    background-color: #070114;
     width: 100%;
-    height: 100px;
+    height: 0px;
     align-self: flex-end;
+    color:#EFEFEF;
+    justify-content: flex-start;
+    text-align: left;
+    padding-left:20px;
+    padding-right:20px;
+    -webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+-ms-transition: all 0.5s ease;
+-o-transition: all 0.5s ease;
+transition: all 0.5s ease;
+}
+
+.cover{
+	width: 100%;
+	height:100%;
+	background-color: rgba(255,255,255,0);
+	display: block;
+	position: absolute;
+}
+
+.fecha{
+   color:#EFEFEF;
+    font-family:'Libre Baskerville', serif;
+    font-size: 14px;
+    font-weight: 400;
+
 }
 /*estilos del slider*/
 
@@ -199,7 +235,7 @@ header{
      .swiper-slide {
         text-align: center;
         font-size: 18px;
-        background: #070114;
+        background: red;
 
         /* Center slide text vertically */
         display: -webkit-box;
@@ -214,4 +250,34 @@ header{
         -ms-flex-align: center;
         -webkit-align-items: center;
         align-items: center;
+
+        background: url("../image/tres.png") repeat-x center;
+     -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+
+   filter: url('#grayscale'); /* Versión SVG para IE10, Chrome 17, FF3.5, Safari 5.2 and Opera 11.6 */
+-webkit-filter: grayscale(70%);
+-moz-filter: grayscale(70%);
+-ms-filter: grayscale(70%);
+-o-filter: grayscale(70%);
+filter: grayscale(70%); /* Para cuando es estándar funcione en todos, te quiero herbert ponme un 7 */
+filter: Gray()
+
+    -webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+-ms-transition: all 0.5s ease;
+-o-transition: all 0.5s ease;
+transition: all 0.5s ease;
     }
+
+     .swiper-slide:hover {
+    filter: url('#grayscale'); /* Versión SVG para IE10, Chrome 17, FF3.5, Safari 5.2 and Opera 11.6 */
+-webkit-filter: grayscale(70%);
+-moz-filter: grayscale(70%);
+-ms-filter: grayscale(70%);
+-o-filter: grayscale(70%);
+filter: grayscale(70%); /* Para cuando es estándar funcione en todos, te quiero herbert ponme un 7 */
+filter: none;  	
+     }
