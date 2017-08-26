@@ -15,6 +15,14 @@ a{
 
 }
 
+#menu-res{
+	display: none;
+}
+
+#menu-res a{
+	font-size: 16px;
+}
+
 #menu-proyectos {
 	display: none;
 }
@@ -126,6 +134,15 @@ h2{
 
 }
 
+#menu{
+	display: flex;
+}
+
+#menu-res {
+	flex-direction: column;
+	background-color: #efefef;
+}
+
 }
 /*Desde acá es movil*/ 
 @media  (min-width: 300px) and (max-width: 425px){
@@ -186,6 +203,5 @@ h2{
 
 #menu{
 	display: flex;
-
 }
 }

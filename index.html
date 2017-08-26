@@ -114,6 +114,19 @@ $(document).ready(function(){
 
 
 
+
+$(document).ready(function(){
+   $('#menu').click(function() {    
+        $("#menu-res").css("display", "flex");
+       
+    });
+    $("#menu").mouseleave(function(){
+        $("#menu-res").css("display", "none");
+         
+        
+    });
+});
+
    </script>
 
 </head>
@@ -127,7 +140,11 @@ $(document).ready(function(){
          <a href="/js/">Investigación</a> 
          <a href="/jquery/">Ilustración</a>
        </nav>
+
     <div id="menu">
+
+     <img src="image/menu.png" id="hambre">
+
      <nav id="menu-res">
          <a href="/html/">Editorial</a> 
          <a href="/css/">Interacción</a> 
