@@ -67,7 +67,7 @@
 
        <div class="swiper-container">
        <div class="swiper-wrapper">
-            <div class="swiper-slide">Slide 1</div>
+            <div class="swiper-slide"><div class="texto-banner"></div></div>
             <div class="swiper-slide">Slide 2</div>
             <div class="swiper-slide">Slide 3</div>
             <div class="swiper-slide">Slide 4</div>
@@ -80,7 +80,15 @@
         </div>
         <!-- Add Pagination -->
          <div class="swiper-pagination"></div>
+
+          <div class="carrusel-pagination swiper-pagination-clickable">
+            <div class="swiper-button-next swiper-button-white"></div>
+            <div class="swiper-button-prev swiper-button-white swiper-button-disabled"></div>
+          </div>
+       </div>
+
       </div>
+    
 
     </div>
 
@@ -164,6 +172,8 @@
     var swiper = new Swiper('.swiper-container', {
         pagination: '.swiper-pagination',
         paginationClickable: true,
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
         slidesPerView: 4,
         spaceBetween: 40,
         breakpoints: {

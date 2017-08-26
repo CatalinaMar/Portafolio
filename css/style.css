@@ -100,12 +100,13 @@ header{
 }
 
 #p-total{
-	height: 560px;
+	height: 400px;
     width: 100%;
     border-style: solid;
 	border-right: 0px;
 	border-left: 0px;
 	border-top: 0px;
+	padding-bottom: 50px
 }
 
 #proyectos-recientes{
@@ -182,6 +183,12 @@ header{
     margin-bottom: 70px;
 }
 
+.texto-banner{
+    background-color: red;
+    width: 100%;
+    height: 100px;
+    align-self: flex-end;
+}
 /*estilos del slider*/
 
     .swiper-container {
@@ -192,7 +199,7 @@ header{
      .swiper-slide {
         text-align: center;
         font-size: 18px;
-        background: #fff;
+        background: #070114;
 
         /* Center slide text vertically */
         display: -webkit-box;
