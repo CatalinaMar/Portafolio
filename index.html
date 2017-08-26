@@ -6,7 +6,9 @@
 	<title> Portafolio Catalina Pérez </title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/responsive-style.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
 </head>
 <body>
   <header>
@@ -59,9 +61,26 @@
 
      </div>
 
+       <h2 id="proyectos-recientes">Proyectos recientes </h2>
+
     <div id="p-total">
 
-    	 <h2 id="proyectos-recientes">Proyectos recientes </h2>
+       <div class="swiper-container">
+       <div class="swiper-wrapper">
+            <div class="swiper-slide">Slide 1</div>
+            <div class="swiper-slide">Slide 2</div>
+            <div class="swiper-slide">Slide 3</div>
+            <div class="swiper-slide">Slide 4</div>
+            <div class="swiper-slide">Slide 5</div>
+            <div class="swiper-slide">Slide 6</div>
+            <div class="swiper-slide">Slide 7</div>
+            <div class="swiper-slide">Slide 8</div>
+            <div class="swiper-slide">Slide 9</div>
+            <div class="swiper-slide">Slide 10</div>
+        </div>
+        <!-- Add Pagination -->
+         <div class="swiper-pagination"></div>
+      </div>
 
     </div>
 
@@ -125,7 +144,7 @@
          <a href="https://www.youtube.com/watch?v=9l1hicPrRNM" target="_blank"><img class="iconos" src="image/ead.png"/></a>
         </div>
 
-        
+
           <div id="contactanos-dos">
          <h2 id="contactos">Contactos</h2>
          <p id="correo">catalina.mar.ps@gmail.com</p>
@@ -136,5 +155,37 @@
 
 
         </footer>
+
+    <!-- Swiper JS -->
+    <script src="js/swiper.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        paginationClickable: true,
+        slidesPerView: 4,
+        spaceBetween: 40,
+        breakpoints: {
+            1024: {
+                slidesPerView: 4,
+                spaceBetween: 40
+            },
+            768: {
+                slidesPerView: 3,
+                spaceBetween: 30
+            },
+            640: {
+                slidesPerView: 2,
+                spaceBetween: 20
+            },
+            320: {
+                slidesPerView: 1,
+                spaceBetween: 10
+            }
+        }
+    });
+    </script>
+
 </body>
 </html>

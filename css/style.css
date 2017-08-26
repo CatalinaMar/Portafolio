@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Libre+Baskerville|Nunito:400,400i,700,700i');
 
 body{
-	background-color: #FF0000;
+	background-color: #EFEFEF;
 	margin-right: 8%;
 	margin-left: 8%;	
 }
@@ -53,16 +53,11 @@ li {
 }
 
 header{
-	background-color: #419917;
 	width: 100%;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
-}
-#menu-proyectos{
-	background-color: #00E5E5;
-
 }
 
 #menu-proyectos a{
@@ -70,12 +65,10 @@ header{
 }
 
 #nombre{
-	background-color: #EF00EF;
 	margin-top: 70px;
 }
 
 #sobre-mi{
-	background-color: #2A19A5;
 	display: flex;
 	flex-direction: row;
     padding-bottom: 40px;
@@ -86,7 +79,6 @@ header{
 }
 
 #menu-basico{
-	background-color: #98A519;
 	display: flex;
 	flex-direction: row;
 	align-items: center;
@@ -108,7 +100,6 @@ header{
 }
 
 #p-total{
-	background-color: #3FA519;
 	height: 560px;
     width: 100%;
     border-style: solid;
@@ -118,12 +109,12 @@ header{
 }
 
 #proyectos-recientes{
-   margin-top: 90px;
+	margin-top: 70px;
+    margin-bottom: 70px;
 }
 
 
 #curriculum{
-	background-color: #A54419;
 	   display: flex;
 	   flex-direction: row;
 }
@@ -187,6 +178,33 @@ header{
 }
 
 #currititulo {
-	margin-top: 90px;
+	margin-top: 70px;
     margin-bottom: 70px;
 }
+
+/*estilos del slider*/
+
+    .swiper-container {
+        width: 100%;
+        height: 100%;
+    }
+
+     .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
