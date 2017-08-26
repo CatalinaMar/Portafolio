@@ -74,6 +74,9 @@ header{
 	margin-left: 50px;
 }
 
+#menu {
+	display: none;
+}
 #nombre{
 	margin-top: 70px;
 }

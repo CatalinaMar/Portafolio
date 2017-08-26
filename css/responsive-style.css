@@ -1,7 +1,6 @@
 @media  (min-width: 300px) and (max-width: 768px){
 
 p{
-	color: #070114;
 	font-family:'Nunito', sans-serif;
 	font-size: 16px;
     line-height: 1.5em;
@@ -10,11 +9,14 @@ p{
 }
 
 a{
-	color: #070114;
 	font-family:'Libre Baskerville', serif;
 	text-decoration: none;
 	font-size: 14px;
 
+}
+
+#menu-proyectos {
+	display: none;
 }
 
 #menu-proyectos a{
@@ -22,7 +24,6 @@ a{
 }
 
 h1{
-	color: #070114;
 	font-family:'Libre Baskerville', serif;
 	font-size: 45px;
 	margin-bottom: 0px;
@@ -30,7 +31,6 @@ h1{
 }
 
 h2{
-	color: #070114;
 	font-family:'Libre Baskerville', serif;
     font-size: 28px;
 	margin-bottom: 0px;
@@ -38,7 +38,6 @@ h2{
 	text-align: center;
 }
 #sobre-mi{
-	background-color: #2A19A5;
 	display: flex;
 	flex-direction: column-reverse;
     padding-bottom: 40px;
@@ -60,7 +59,6 @@ h2{
 
 
 #curriculum{
-	background-color: #A54419;
 	   display: flex;
 	   flex-direction: column-reverse;
 }
@@ -104,7 +102,6 @@ h2{
     }
 
 #nombre {
-	background-color: #EF00EF;
 	margin-top: 70px;
 	text-align: center;
 }
@@ -134,7 +131,6 @@ h2{
 @media  (min-width: 300px) and (max-width: 425px){
 
 h1{
-	color: #070114;
 	font-family:'Libre Baskerville', serif;
 	font-size: 30px;
 	margin-bottom: 0px;
@@ -142,7 +138,6 @@ h1{
 }
 
 h2{
-	color: #070114;
 	font-family:'Libre Baskerville', serif;
     font-size: 20px;
 	margin-bottom: 0px;
@@ -150,7 +145,6 @@ h2{
 	text-align: center;
 }
 	#nombre {
-	background-color: #EF00EF;
 	margin-top: 5px;
 	text-align: center;
 }
@@ -183,6 +177,15 @@ h2{
    -moz-background-size: cover;
    -o-background-size: cover;
    background-size: cover;
+
+}
+
+#menu-proyectos {
+	display: none;
+}
+
+#menu{
+	display: flex;
 
 }
 }
