@@ -122,6 +122,11 @@ header{
 	width: 100%;
 }
 
+ul{
+	padding: 0px;
+	margin: 0px;
+}
+
 #tambienuno{
 	display: flex;
 	flex-direction: row;

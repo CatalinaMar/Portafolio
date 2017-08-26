@@ -15,6 +15,10 @@ a{
 
 }
 
+#menu-basico {
+    text-align: center;
+}
+
 #menu-res{
 	display: none;
 }
@@ -143,6 +147,9 @@ h2{
 	background-color: #efefef;
 }
 
+.texto-banner{
+	height: 100px;
+}
 }
 /*Desde acá es movil*/ 
 @media  (min-width: 300px) and (max-width: 425px){
@@ -204,4 +211,9 @@ h2{
 #menu{
 	display: flex;
 }
+
+.texto-banner{
+	height: 100px;
+}
+
 }
