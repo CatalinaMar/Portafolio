@@ -2,10 +2,14 @@
 
 body{
 	background-color: #EFEFEF;
-	margin-right: 8%;
-	margin-left: 8%;	
+	
 }
+section{
+		margin-top: 200px; 
+	margin-right: 8%;
+	margin-left: 8%;
 
+}
 h1{
 	color: #070114;
 	font-family:'Libre Baskerville', serif;
@@ -24,6 +28,13 @@ h2{
 	    font-weight: 400;
 }
 
+h3{
+	font-family:'Libre Baskerville', serif;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
 h4{
 	font-family:'Libre Baskerville', serif;
     font-size: 16px;
@@ -64,15 +75,22 @@ li {
 
 header{
 	width: 100%;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	align-items: center;
-	
+	background-color: #EFEFEF;
+	position: fixed;
+	top: 0;
+	padding-right: 100px;
+	padding: 10px 0;
+	z-index: 80;
+}
+
+#menu-proyectos{
+	float: right;
+	margin-right: 8%;
 }
 
 #menu-proyectos a{
-	margin-left: 50px;
+	display: inline-block;
+	padding: 1em 2em 0 2em;
 }
 
 #menu {
@@ -165,6 +183,7 @@ ul{
 
 #logo{
 	height: 50px;
+	margin-left: 8%;
 
 }
 
@@ -180,7 +199,7 @@ ul{
 
 .iconos{
 	height: 2px;
-	margin-left: 10px;
+	margin-left: 10px; 
 }
 
 #miphoto{
@@ -204,13 +223,6 @@ ul{
 
 }
 
-#contactanos-dos {
-	display: none;
-}
-
-#contactanos-dos img{
-	height: 34px;	
-} 
 
 #concurri{
 	width: 50%;
@@ -258,6 +270,91 @@ transition: all 0.5s ease;
     font-weight: 400;
 
 }
+
+footer{
+	margin-top: 100px;
+	padding-top: 50px;
+	border-style: solid;
+	border-right: 0px;
+	border-left: 0px;
+	border-bottom: 0px;
+	background-color: #070114;
+	color: #EFEFEF;
+	text-align: center;
+
+
+}
+
+footer p{
+	color: #efefef;
+	font-size: 14px;
+}
+
+}
+#nomfoot{
+	align-items: center;
+}
+
+#catalinafoot{
+	margin-bottom:  5px;
+	margin-top: 0;
+     font-size: 20px;
+}
+
+#diseño-graficofoot{
+	margin: 0;
+}
+
+#logofoot{
+	height:  60px;
+	padding-right: 20px;
+
+}
+
+.iconosfoot{
+	height: 40px;
+
+}
+
+.iconoser{
+	height: 40px;
+	width: 40px;
+	justify-content: center;
+}
+
+#foot{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+		align-items: center;
+	margin-bottom: 30px;
+}
+
+.corr{
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+#contactanos-foot{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+#corruno{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;	
+}
+
+#corrdos{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;	
+}
+
+
+
 /*estilos del slider*/
 
     .swiper-container {
