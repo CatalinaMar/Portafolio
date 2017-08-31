@@ -189,6 +189,18 @@ h2{
 .texto-banner{
 	height: 100px;
 }
+
+#fedi1{
+	height: 400px;
+    background: url("../image/fedi1.png") repeat-x center;
+  -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+      width: 297px;
+     align-self: center;
+}
+
 }
 
 
@@ -301,3 +313,19 @@ h2{
 	justify-content: center;	
 }
 
+#fedi1{
+	height: 250px;
+    background: url("../image/fedi1.png") repeat-x center;
+  -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+      width: 180px;
+     justify-content: center;
+}
+
+#fedi1.profot{
+     justify-content: center;
+}
+
+}

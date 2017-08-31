@@ -189,7 +189,6 @@ ul{
 #despro{
 	   display: flex;
 	   flex-direction: row;
-	   height: 1000px;
 }
 
 #logo{
@@ -442,14 +441,13 @@ footer p{
 /*estilos de fotos*/
 
 #fedi1{
-   width: 100%;
-       background: url("../image/fedi1.png") repeat-x center;
+	height: 700px;
+    background: url("../image/fedi1.png") repeat-x center;
   -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
    background-size: cover;
-   height: 900px;
-   display: flex;
+      width: 100%;
 }
 
 
@@ -481,11 +479,7 @@ footer p{
         -webkit-align-items: center;
         align-items: center;
 
-        background: url("../image/tres.png") repeat-x center;
-     -webkit-background-size: cover;
-   -moz-background-size: cover;
-   -o-background-size: cover;
-   background-size: cover;
+   
 
    filter: url('#grayscale'); /* Versión SVG para IE10, Chrome 17, FF3.5, Safari 5.2 and Opera 11.6 */
 -webkit-filter: grayscale(70%);
@@ -511,3 +505,83 @@ transition: all 0.5s ease;
 filter: grayscale(70%); /* Para cuando es estándar funcione en todos, te quiero herbert ponme un 7 */
 filter: none;  	
      }
+
+   #f1{
+   	     background: url("../image/sonda.jpg") repeat-x center;
+     -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   }
+
+      #f2{
+   	     background: url("../image/inte1.png") repeat-x center;
+     -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   }
+
+      #f3{
+   	     background: url("../image/cap12.png") repeat-x center;
+     -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   }
+
+      #f4{
+   	     background: url("../image/ankulenmo.png") repeat-x center;
+     -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   }
+
+      #f5{
+   	     background: url("../image/ps.jpg") repeat-x center;
+     -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   }
+
+      #f6{
+   	     background: url("../image/la.jpg") repeat-x center;
+     -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   }
+
+      #f7{
+   	     background: url("../image/edi3.jpg") repeat-x center;
+     -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   }
+
+      #f8{
+   	     background: url("../image/ilu1.png") repeat-x center;
+     -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   }
+
+         #f9{
+   	     background: url("../image/ilu2.jpg") repeat-x center;
+     -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   }
+
+      #f10{
+   	     background: url("../image/ilu3.png") repeat-x center;
+     -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   }
