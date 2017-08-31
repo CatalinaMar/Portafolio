@@ -470,6 +470,26 @@ footer p{
       width: 100%;
 }
 
+#fedi4{
+	height: 700px;
+    background: url("../image/edi3.jpg") repeat-x center;
+  -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+      width: 100%;
+}
+
+#fedi5{
+	height: 700px;
+    background: url("../image/edi5.jpg") repeat-x center;
+  -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+      width: 100%;
+}
+
 
 }
 

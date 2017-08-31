@@ -223,6 +223,28 @@ h2{
      align-self: center;
 }
 
+#fedi4{
+	height: 390px;
+    background: url("../image/edi3.jpg") repeat-x center;
+  -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+      width: auto;
+     align-self: center;
+}
+
+#fedi5{
+	height: 390px;
+    background: url("../image/edi5.jpg") repeat-x center;
+  -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+      width: auto;
+     align-self: center;
+}
+
 }
 
 
