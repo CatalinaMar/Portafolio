@@ -201,6 +201,28 @@ h2{
      align-self: center;
 }
 
+#fedi2{
+	height: 400px;
+    background: url("../image/cona.jpg") repeat-x center;
+  -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+      width: auto;
+     align-self: center;
+}
+
+#fedi3{
+	height: 400px;
+    background: url("../image/coni.jpg") repeat-x center;
+  -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+      width: auto;
+     align-self: center;
+}
+
 }
 
 

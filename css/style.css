@@ -450,6 +450,26 @@ footer p{
       width: 100%;
 }
 
+#fedi2{
+	height: 700px;
+    background: url("../image/cona.jpg") repeat-x center;
+  -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+      width: 100%;
+}
+
+#fedi3{
+	height: 700px;
+    background: url("../image/coni.jpg") repeat-x center;
+  -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+      width: 100%;
+}
+
 
 }
 
@@ -505,6 +525,8 @@ transition: all 0.5s ease;
 filter: grayscale(70%); /* Para cuando es estándar funcione en todos, te quiero herbert ponme un 7 */
 filter: none;  	
      }
+
+  /* paginas*/
 
    #f1{
    	     background: url("../image/sonda.jpg") repeat-x center;
