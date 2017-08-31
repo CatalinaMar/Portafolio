@@ -65,9 +65,13 @@ a{
 	font-family:'Libre Baskerville', serif;
 	text-decoration: none;
 	font-size: 16px;
+	transition: all 0.3s ease;
 
 }
 
+a:hover{
+	color: #00c481;
+}
 li {
 	text-decoration: none;
 	list-style: none;
@@ -181,11 +185,45 @@ ul{
 	   flex-direction: row;
 }
 
+
+#despro{
+	   display: flex;
+	   flex-direction: row;
+	   height: 1000px;
+}
+
 #logo{
-	height: 50px;
+height: 50px;
+	-webkit-transform: scale(1);
+	transform: scale(1);
 	margin-left: 8%;
 
 }
+
+#profech{
+	font-family:'Libre Baskerville', serif;
+    font-weight: 400i;
+}
+.profot{
+	margin-bottom: 20px;
+
+}
+#logo:hover {
+
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+	
+}
+
+
+
+
+
+
+
+
 
 #banner{
 	height: 750px;
@@ -220,11 +258,25 @@ ul{
 #bannercurriculum img{
 	height: 34px;
 
+}
+
+
+#bannerpro{
+		width: 50%;
+}
+
+#bannerpro img{
+	height: 34px;
 
 }
 
 
+
 #concurri{
+	width: 50%;
+}
+
+#proinf{
 	width: 50%;
 }
 
@@ -233,7 +285,17 @@ ul{
 	margin-right: 20px;
 }
 
+#protext {
+	line-height: 2.1em;
+	margin-right: 20px;
+}
+
 #currititulo {
+	margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+#proe {
 	margin-top: 70px;
     margin-bottom: 70px;
 }
@@ -308,8 +370,20 @@ footer p{
 #logofoot{
 	height:  60px;
 	padding-right: 20px;
+		-webkit-transform: scale(1);
+	transform: scale(1);
+	margin-left: 8%;
 
 }
+#logofoot:hover {
+
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+	
+}
+
 
 .iconosfoot{
 	height: 40px;
@@ -353,7 +427,33 @@ footer p{
 	justify-content: center;	
 }
 
+#protex p{
+	display:  block;
+	width: 60%;
+}
 
+#bienvenida-res{
+	display: none;
+}
+
+#proy-cat{
+	margin-bottom: 50PX;
+}
+/*estilos de fotos*/
+
+#fedi1{
+   width: 100%;
+       background: url("../image/fedi1.png") repeat-x center;
+  -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   height: 900px;
+   display: flex;
+}
+
+
+}
 
 /*estilos del slider*/
 
