@@ -510,105 +510,124 @@ footer p{
       width: 100%;
 }
 
+#finte1{
+	height: 500px;
+    background: url("../image/inte1.png") repeat-x center;
+  -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+      width: 100%;
+}
+
+#finte2{
+	height: 700px;
+    background: url("../image/jug1.png") repeat-x center;
+  -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+      width: 100%;
+}
 
 #fil1{
-	height: 700px;
+	
     background: url("../image/ilu1.png") repeat-x center;
   -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
    background-size: cover;
-      width: 100%;
+   
 }
 
 #fil2{
-	height: 700px;
+
     background: url("../image/ilu2.jpg") repeat-x center;
   -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
    background-size: cover;
-      width: 100%;
+   
 }
 
 #fil3{
-	height: 700px;
+	
     background: url("../image/ilu3.png") repeat-x center;
   -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
    background-size: cover;
-      width: 100%;
+
 }
 
 #fil4{
-	height: 700px;
+	
     background: url("../image/ima3.jpg") repeat-x center;
   -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
    background-size: cover;
-      width: 100%;
+  
 }
 
 #fil5{
-	height: 700px;
+
     background: url("../image/ilusin.jpg") repeat-x center;
   -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
    background-size: cover;
-      width: 100%;
+ 
 }
 
 #fil6{
-	height: 700px;
+	
     background: url("../image/lala.png") repeat-x center;
   -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
    background-size: cover;
-      width: 100%;
+ 
 }
 
 #fil7{
-	height: 700px;
+
     background: url("../image/1.jpg") repeat-x center;
   -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
    background-size: cover;
-      width: 100%;
+ 
 }
 
 #fil8{
-	height: 700px;
+
     background: url("../image/2.jpg") repeat-x center;
   -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
    background-size: cover;
-      width: 100%;
+
 }
 
 #fil9{
-	height: 700px;
+
     background: url("../image/3.jpg") repeat-x center;
   -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
    background-size: cover;
-      width: 100%;
+
 }
 
 #fil10{
-	height: 700px;
+
     background: url("../image/bhffg.png") repeat-x center;
   -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
    background-size: cover;
-      width: 100%;
+  
 }
 
 

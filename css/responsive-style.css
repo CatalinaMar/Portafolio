@@ -192,7 +192,7 @@ h2{
 
 #fedi1{
 	height: 400px;
-    background: url("../image/tres.png") repeat-x center;
+    background: url("../image/fedi1.png") repeat-x center;
   -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
@@ -203,7 +203,7 @@ h2{
 
 #fedi2{
 	height: 400px;
-    background: url("../image/6.jpg") repeat-x center;
+    background: url("../image/cona.jpg") repeat-x center;
   -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
@@ -214,7 +214,7 @@ h2{
 
 #fedi3{
 	height: 400px;
-    background: url("../image/4.jpg") repeat-x center;
+    background: url("../image/coni.jpg") repeat-x center;
   -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
@@ -225,7 +225,7 @@ h2{
 
 #fedi4{
 	height: 390px;
-    background: url("../image/circul.png") repeat-x center;
+    background: url("../image/edi3.jpg") repeat-x center;
   -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
@@ -247,7 +247,7 @@ h2{
 
 #fedi6{
 	height: 400px;
-    background: url("../image/bhffg.png") repeat-x center;
+    background: url("../image/sonda.jpg") repeat-x center;
   -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
@@ -258,7 +258,7 @@ h2{
 
 #fedi7{
 	height: 400px;
-    background: url("../image/lala.png") repeat-x center;
+    background: url("../image/sonda.jpg") repeat-x center;
   -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
@@ -267,9 +267,9 @@ h2{
      align-self: center;
 }
 
-#fefil8{
+#finte1{
 	height: 400px;
-    background: url("../image/1.jpg") repeat-x center;
+    background: url("../image/inte1.png") repeat-x center;
   -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
@@ -278,9 +278,10 @@ h2{
      align-self: center;
 }
 
-#fefil9{
+
+#finte2{
 	height: 400px;
-    background: url("../image/2.jpg") repeat-x center;
+    background: url("../image/jug1.png") repeat-x center;
   -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
@@ -289,15 +290,7 @@ h2{
      align-self: center;
 }
 
-#fefil10{
-	height: 400px;
-    background: url("../image/9.jpg") repeat-x center;
-  -webkit-background-size: cover;
-   -moz-background-size: cover;
-   -o-background-size: cover;
-   background-size: cover;
-      width: auto;
-     align-self: center;
+
 
 
 
@@ -424,6 +417,9 @@ h2{
       width: 180px;
      justify-content: center;
 }
+
+
+
 
 #fedi1.profot{
      justify-content: center;
