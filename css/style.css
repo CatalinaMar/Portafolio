@@ -585,3 +585,23 @@ filter: none;
    -o-background-size: cover;
    background-size: cover;
    }
+
+   #f11{
+   	     background: url("../image/coni.jpg") repeat-x center;
+     -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   }
+
+      #f12{
+   	     background: url("../image/fedi1.png") repeat-x center;
+     -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   }
+
+
+
+
