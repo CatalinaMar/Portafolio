@@ -490,6 +490,26 @@ footer p{
       width: 100%;
 }
 
+#fedi6{
+	height: 700px;
+    background: url("../image/sonda.jpg") repeat-x center;
+  -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+      width: 100%;
+}
+
+#fedi7{
+	height: 700px;
+    background: url("../image/sonda2.jpg") repeat-x center;
+  -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+      width: 100%;
+}
+
 
 }
 
