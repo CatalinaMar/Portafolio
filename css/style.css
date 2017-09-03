@@ -438,6 +438,31 @@ footer p{
 #proy-cat{
 	margin-bottom: 50PX;
 }
+
+.ilu-rou{
+	display: flex;
+	flex-direction: row;
+}
+
+.ilu-text{
+	width: 50%;
+	text-align: right;
+	padding-right: 50px;
+		padding-bottom: 50px;
+	font-family:'Libre Baskerville', serif;
+    font-weight: 400i;
+
+}
+
+
+
+.ilu-ban{
+	width: 50%;
+	padding-bottom: 50px;
+
+}
+
+
 /*estilos de fotos*/
 
 #fedi1{
@@ -510,6 +535,16 @@ footer p{
       width: 100%;
 }
 
+#fedi8{
+	height: 970px;
+    background: url("../image/ankulenmo.png") repeat-x center;
+  -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+      width: 100%;
+}
+
 #finte1{
 	height: 500px;
     background: url("../image/inte1.png") repeat-x center;
@@ -520,15 +555,88 @@ footer p{
       width: 100%;
 }
 
-#finte2{
-	height: 700px;
-    background: url("../image/jug1.png") repeat-x center;
+#finte3{
+	height: 400px;
+    background: url("../image/cap12.png") repeat-x center;
   -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
    background-size: cover;
       width: 100%;
 }
+
+#finte4{
+	height: 260px;
+    background: url("../image/cap49.png") repeat-x center;
+  -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+      width: 100%;
+}
+
+#finve1{
+	height: 700px;
+    background: url("../image/inve1.jpg") repeat-x center;
+  -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+      width: 100%;
+}
+
+#finve2{
+	height: 700px;
+    background: url("../image/inve2.jpg") repeat-x center;
+  -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+      width: 100%;
+}
+
+#finve4{
+	height: 700px;
+    background: url("../image/la.jpg") repeat-x center;
+  -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+      width: 100%;
+}
+
+#finve5{
+	height: 700px;
+    background: url("../image/le.jpg") repeat-x center;
+  -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+      width: 100%;
+}
+
+#finve6{
+	height: 700px;
+    background: url("../image/ps.jpg") repeat-x center;
+  -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+      width: 100%;
+}
+
+#finve7{
+	height: 700px;
+    background: url("../image/ps2.jpg") repeat-x center;
+  -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+      width: 100%;
+}
+
+
+
 
 #fil1{
 	
@@ -630,6 +738,137 @@ footer p{
   
 }
 
+
+
+#il1{
+	height: 500px;
+    background: url("../image/ilu1.png") repeat-x center;
+  -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+      width: 100%;
+}
+
+#il2{
+	height: 350px;
+    background: url("../image/ilu2.jpg") repeat-x center;
+  -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+      width: 100%;
+}
+
+#il3{
+	height: 300px;
+    background: url("../image/ilu3.png") repeat-x center;
+  -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+      width: 100%;
+}
+
+#il4{
+	height: 350px;
+    background: url("../image/ima3.jpg") repeat-x center;
+  -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+      width: 100%;
+}
+
+#il5{
+	height: 350px;
+    background: url("../image/ilusin.jpg") repeat-x center;
+  -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+      width: 100%;
+}
+
+#il6{
+	height: 500px;
+    background: url("../image/lala.png") repeat-x center;
+  -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+      width: 100%;
+}
+
+#il7{
+	height: 500px;
+    background: url("../image/1.jpg") repeat-x center;
+  -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+      width: 100%;
+}
+
+#il8{
+	height: 500px;
+    background: url("../image/2.jpg") repeat-x center;
+  -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+      width: 100%;
+}
+
+#il9{
+	height: 500px;
+    background: url("../image/3.jpg") repeat-x center;
+  -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+      width: 100%;
+}
+
+#il10{
+	height: 300px;
+    background: url("../image/bhffg.png") repeat-x center;
+  -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+      width: 100%;
+}
+
+#il11{
+	height: 500px;
+    background: url("../image/4.jpg") repeat-x center;
+  -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+      width: 100%;
+}
+
+#il12{
+	height: 400px;
+    background: url("../image/9.jpg") repeat-x center;
+  -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+      width: 100%;
+}
+
+#il13{
+	height: 400px;
+    background: url("../image/circul.png") repeat-x center;
+  -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+      width: 100%;
+}
 
 }
 
@@ -778,6 +1017,13 @@ filter: none;
 
       #f12{
    	     background: url("../image/fedi1.png") repeat-x center;
+     -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   }
+      #f13{
+   	     background: url("../image/inve1.jpg") repeat-x center;
      -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
